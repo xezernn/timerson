@@ -1,0 +1,54 @@
+.main {
+    margin-top: 100px;
+}
+
+.cardborder {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.main .timer {
+    background-color: #E7E6E6;
+    display: flex;
+    justify-content: center;
+    padding: 30px 50px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.main .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 20px;
+}
+.timer {
+    display: flex;
+
+}
+
+input {
+    text-align: center;
+    width: 120px;
+}
+
+@media (min-width:576px) {
+    .cardborder {
+        padding: 50px !important;
+    }
+
+    .main .timer {
+        padding: 30px 80px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card {
+        padding: 80px;
+
+    }
+
+}
